@@ -1,0 +1,57 @@
+let voto = Number(prompt("Che voto hai preso all esame?")) 
+
+if(voto < 18 && voto >= 0){
+    console.log("Insufficiente");
+    
+}else if(voto >= 18 && voto < 21){
+    console.log("Sufficiente");
+    
+}else if(voto >= 21 && voto < 24){
+    console.log("Buono");
+    
+}else if(voto >= 24 && voto < 27){
+    console.log("distinto");
+    
+}else if(voto >= 27 && voto < 29){
+    console.log("Ottimo");
+    
+}else if(voto == 30){
+    console.log("Eccellente");
+    
+}else{console.log("Voto non valido");
+}
+
+switch(true){
+    case voto < 18 && voto >= 0 :
+        console.log("Insufficiente");
+        break
+    
+     case voto >= 18 && voto < 21 :
+        console.log("Insufficiente");
+        break
+    
+     case voto >= 21 && voto < 24 :
+        console.log("Insufficiente");
+        break
+
+     case voto >= 24 && voto < 27 :
+        console.log("Insufficiente");
+        break
+
+     case voto >= 27 && voto < 29 :
+        console.log("Insufficiente");
+        break
+        
+    case voto >= 29 && voto < 30 :
+        console.log("Insufficiente");
+        break
+
+    case voto == 30 :
+        console.log("Eccellente");
+     break
+     
+     default :
+     console.log("Voto non valido");
+     
+     break
+}
