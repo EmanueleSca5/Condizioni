@@ -27,19 +27,19 @@ switch(true){
         break
     
      case voto >= 18 && voto < 21 :
-        console.log("Insufficiente");
+        console.log("Sufficiente");
         break
     
      case voto >= 21 && voto < 24 :
-        console.log("Insufficiente");
+        console.log("Buono");
         break
 
      case voto >= 24 && voto < 27 :
-        console.log("Insufficiente");
+        console.log("Distinto");
         break
 
      case voto >= 27 && voto < 29 :
-        console.log("Insufficiente");
+        console.log("Ottimo");
         break
         
     case voto >= 29 && voto < 30 :
