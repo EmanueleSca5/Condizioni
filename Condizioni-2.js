@@ -28,7 +28,7 @@ switch(true){
         break
         
         
-    case temperatura >= 30 && temperatura >= 20 :
+    case temperatura <= 30 && temperatura >= 20 :
         console.log("Mi dia una peroni sudata");
         break
 
